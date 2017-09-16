@@ -3,7 +3,8 @@ Common methods about digitalPersona 4500 Reader
 
 ## Advice
 
-This only works with `DPUruNet` version 1.0.0.0 be careful, also have to install DigitalPersona U.are.U SDK.
+This only works with `DPUruNet` version 1.0.0.0 be careful.
+Also you have to install DigitalPersona U.are.U SDK.
 
 ## Usage for Nuget
 
@@ -45,7 +46,3 @@ and finally to get the xml of the fingerprint use:
 ## Examples
 
 There are examples for Forms and WPF inside in the project.
-
-    
-
-
