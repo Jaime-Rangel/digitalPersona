@@ -3,7 +3,7 @@ Common methods about digitalPersona 4500 Reader
 
 ## Advice
 
-This only works with `DPUruNet` version 1.0.0.0 be careful.
+This only works with `DPUruNet` version 1.0.0.0 be careful, also have to install DigitalPersona U.are.U SDK.
 
 ## Usage for Nuget
 
