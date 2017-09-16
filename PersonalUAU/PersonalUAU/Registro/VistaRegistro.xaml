@@ -1,0 +1,17 @@
+﻿<Window x:Class="PersonalUAU.Registro.VistaRegistro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ventana para registros de huella" Height="411.403" Width="749.536" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+    <Grid>
+        <GroupBox x:Name="gbxRegistro" Header="Registro de Huella" Margin="10,10,10,0" BorderThickness="1" FontSize="14" Height="359" VerticalAlignment="Top" Style="{x:Null}">
+            <WrapPanel Margin="10,10,10,5">
+                <RichTextBox x:Name="txtSalida" x:FieldModifier="public" VerticalScrollBarVisibility="Visible" Height="262" Width="674" Margin="7,10,0,0" FontSize="18" IsReadOnly="True" TextChanged="txtSalida_TextChanged">
+                    <FlowDocument>
+                        <Paragraph/>
+                    </FlowDocument>
+                </RichTextBox>
+                <Button x:Name="btnCancelar" Content="Cancelar" Height="31" Width="165" Margin="10,10,0,0" Click="Button_Click" Style="{x:Null}"/>
+            </WrapPanel>
+        </GroupBox>
+    </Grid>
+</Window>

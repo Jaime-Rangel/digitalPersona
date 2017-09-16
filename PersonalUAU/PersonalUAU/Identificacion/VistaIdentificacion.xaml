@@ -1,0 +1,15 @@
+﻿<Window x:Class="PersonalUAU.Identificacion.VistaIdentificacion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="VistaIdentificacion" Height="502.985" Width="876.119" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+    <Grid>
+        <Grid Margin="10">
+            <GroupBox Header="Buscando Huella" Margin="10" FontSize="18">
+                <Grid Margin="10">
+                    <Label x:Name="lblMensaje" Content="Buscando...." Margin="10" FontSize="36"/>
+                </Grid>
+            </GroupBox>
+        </Grid>
+
+    </Grid>
+</Window>
